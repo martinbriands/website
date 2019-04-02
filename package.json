@@ -1,0 +1,15 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "my personal website",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+  "type": "git",
+  "url": ""
+  },
+  "author": "martin briand",
+  "license": "ISC"
+}
