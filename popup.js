@@ -103,7 +103,7 @@ button = document.getElementById("Pacman");
 button.addEventListener("click", function () {
 	FillPopup("Pacman", "Custom Pacman Engine - C++ & JS", "Pacman",
 	"Pacman C++ Clone originally Developped as a submission for the Ubisoft NXT competition, then revised as a JS Web Game for this site <br> <br>The focus of this game is the ghost AI, each having their own way of attacking the player: <br> - Red chases the player Directly <br> - Pink Chases the player's next intersection <br> - Blue moves randomly <br> - Yellow targets the player then moves randomly when it gets close <br> The other aspect of the game is the customization of the level, that is fully customizable thanks to a double array, allowing to make a classic Pacman Grid or something like the header of this site <br><br> What I implemented: <br> - Player Movement and Input <br> - A* pathfinding algorithm <br> - Custom Map Generation <br> Interface for new types of Ghost",
-	"<br><a href=\"file:///D:/Github/JS/website/game.html\"> Try the Game</a>")
+	"<br><a href=\"game.html\"> Try the Game</a>")
 });
 
 function FillPopup(title, underTitle, folder, description, links) {
