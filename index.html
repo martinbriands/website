@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Martin Briand</title>
+        <link href="normalize.css" type="text/css" rel="stylesheet" />
+        <link href="index.css" type="text/css" rel="stylesheet" />
+
+        <script language="javascript" type="text/javascript" src="http://code.createjs.com/createjs-2013.12.12.min.js" ></script>
+        <script language="javascript" type="text/javascript" src="vector2.js" ></script>
+        <script language="javascript" type="text/javascript" src="game.js" ></script>
+    </head>
+    <body>
+        <div id="headerContainer">
+            <div id="gameContainer">
+                <img id="profilePicture" src="assets/profile.png">
+                <canvas id="gameCanvas"></canvas>
+
+            </div>
+        </div>
+
+        <div class="header" id="header">
+            <div class="subHeader">
+                <div class="subsubHeader">
+                    <div > Martin Briand </div>
+                    <div onclick="Skills()" class="buttonHeader"> Skills </div>
+                    <div onclick="Experience()" class="buttonHeader"> Experience </div>
+                    <div onclick="Education()" class="buttonHeader"> Education </div>
+                    <div onclick="Portfolio()" class="buttonHeader"> Portfolio </div>
+                    <div onclick="Contact()" class="buttonHeader"> Contact </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="headerPadding">
+        </div>
+
+        <div class="content">
+            <div class="subContent">
+                <div class="subsubContent" id="skillsID"> 
+                    <div>
+                        <div class="title">
+                            Skills
+                        </div>
+                        <div class="subTitle">
+                            I love programming and making games. <br>
+                            I self taught multiple game engines and even built some custom ones.
+                        </div>
+                    </div>
+                    <div class="skillGrid">
+                        <div>
+                            <div class="skillTitle">
+                                Game Development
+                            </div>
+                            <div class="skillSubTitleTop">
+                                C#, C++, JS <br>
+                                Unity 3D, Unreal Engine, BabylonJS
+                            </div>
+                        </div>
+                        <div>
+                            <div class="skillTitle">
+                                Web Development
+                            </div>
+                            <div class="skillSubTitleTop">
+                                HTML, CSS, JS <br>
+                                Node.JS, MongoDB
+                            </div>
+                        </div>
+                        <div>
+                            <div class="skillTitle">
+                                Other Tools
+                            </div>
+                            <div class="skillSubTitleBot">
+                                Python, Java, C <br>
+                                Photoshop, Blender
+                            </div>
+                        </div>
+                        <div>
+                            <div class="skillTitle">
+                                Languages
+                            </div>
+                            <div class="skillSubTitleBot">
+                                French (Native), English (Fluent) <br>
+                                Some German & Japanese
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="subContent">
+                <div class="subsubContent" id="experienceID">
+                    <div>
+                        <div class="title">
+                            Experience
+                        </div>
+                        <div class="subTitle">
+                            I work Good
+                        </div>
+                    </div>
+                    <div class="experienceGrid">
+                        <div class="experienceTitleContainer">
+                            <div>
+                                <div class="experienceTitle">
+                                    Game Developer & User Tester
+                                </div>
+                                <div class="experienceLocation"> 
+                                    Centivizer
+                                </div>
+                            </div>
+                            <div>
+                                <div class="experienceDate">
+                                    May 2018 - current
+                                </div>
+                                <div class="experienceContentTop">
+                                    Designed and developped a driving simulator targeted to patients suffereing from dementia <br>
+                                    Worked with the BabylonJS game engine, designed custom collision logic and dynamic map generation <br>
+                                    Conducted user testing sessions with local old age homes to get feedback from patients and professionals <br>
+                                    Our game is being used with several Centivizer units in facilities in New Brunswick <br>
+                                    Created 3D modeled assets and textures for the game
+                                </div>
+                            </div>
+                        </div>
+                        <div class="experienceTitleContainer">
+                            <div>
+                                <div class="experienceTitle">
+                                    Porter
+                                </div>
+                                <div class="experienceLocation"> 
+                                    RCYC
+                                </div>
+                            </div>
+                            <div>
+                                <div class="experienceDate">
+                                    Summer 2017
+                                </div>
+                                <div class="experienceContentBot">
+                                    Served as server and event staff at a prestigious establishment <br>
+                                    Catered numerous weddings <br>
+                                    Worked as a team to satisfy clients
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="subContent">
+                <div class="subsubContent" id="educationID">
+                    <div>
+                        <div class="title">
+                            Education
+                        </div>
+                        <div class="subTitle">
+                            I study well
+                        </div>
+                    </div>
+                    <div class="experienceGrid">
+                        <div class="experienceTitleContainer">
+                            <div>
+                                <div class="experienceTitle">
+                                    Bachelor's Degree
+                                </div>
+                                <div class="experienceLocation"> 
+                                    University of Toronto
+                                </div>
+                            </div>
+                            <div>
+                                <div class="experienceDate">
+                                    2015 - 2019
+                                </div>
+                                <div class="experienceContentTop">
+                                    Bachelor of Arts and Science <br>
+                                    Double Major in Computer Science & Cinema Studies <br>
+                                    CGPA of 2.92
+                                </div>
+                            </div>
+                        </div>
+                        <div class="experienceTitleContainer">
+                            <div>
+                                <div class="experienceTitle">
+                                    French Baccalauréat
+                                </div>
+                                <div class="experienceLocation"> 
+                                    Lycée Galilée
+                                </div>
+                            </div>
+                            <div>
+                                <div class="experienceDate">
+                                    2013 - 2015
+                                </div>
+                                <div class="experienceContentBot">
+                                    Série S - spécialité Physique Chimie <br>
+                                    Mention Bien
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="subContent">
+                <div class="portfolioContainer" id="portfolioID">
+                    <div class="title">
+                        Portfolio
+                    </div>
+                    <div class="portfolioGrid">
+                        <div class="portfolioGridItem" id="Fangs & Friends"> 
+                            <img src="assets/Fangs&Friends/1.gif" class="portfolioImage">
+                            Fangs & Friends
+                        </div>
+                        <div class="portfolioGridItem" id="DS"> 
+                            <img src="assets/DS/1.gif" class="portfolioImage">
+                            Centivizer DS
+                        </div>
+                        <div class="portfolioGridItem" id="Kleptomanihat"> 
+                            <img src="assets/Kleptomanihat/1.gif" class="portfolioImage">
+                            Kleptomanihat
+                        </div>
+                        <div class="portfolioGridItem" id="FishermanFoes"> 
+                            <img src="assets/FishermanFoes/1.gif" class="portfolioImage">
+                            Fisherman Foes
+                        </div>
+                        <div class="portfolioGridItem" id="vrc"> 
+                            <img src="assets/vrc/1.gif" class="portfolioImage">
+                            VR Classroom
+                        </div>
+                        <div class="portfolioGridItem" id="BreadRampage"> 
+                            <img src="assets/BreadRampage/1.gif" class="portfolioImage">
+                            VR Bread Rampage
+                        </div>
+                        <div class="portfolioGridItem" id="WyvernsNest"> 
+                            <img src="assets/WyvernsNest/1.gif" class="portfolioImage">
+                            Wyvern's Nest
+                        </div>
+                        <div class="portfolioGridItem" id="GoogleSpy"> 
+                            <img src="assets/GoogleSpy/1.gif" class="portfolioImage">
+                            Google Spy
+                        </div>
+                        <div class="portfolioGridItem" id="GameNani"> 
+                            <img src="assets/GameNani/1.gif" class="portfolioImage">
+                            Game Nani
+                        </div>
+                        <div class="portfolioGridItem" id="Netflix"> 
+                            <img src="assets/Netflix/1.gif" class="portfolioImage">
+                            Netflix Recommendation
+                        </div>
+                        <div class="portfolioGridItem" id="Pacman"> 
+                            <img src="assets/Pacman/1.gif" class="portfolioImage">
+                            Pacman
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer" > 
+            <div class="title" id="contactID"> Contact </div>
+
+            <div class="contactInfo"> 
+                <img src="assets/email_logo.png" class="smallLogo"> martinbriands@gmail.com
+            </div>
+            <div class="contactInfo"> 
+                <img src="assets/phone_logo.png" class="smallLogo"> (647)213-5108
+            </div>
+            <div class="contactInfo"> 
+                <img src="assets/github_logo.png" class="smallLogo"> martinbriands
+            </div>
+        </div>
+
+        <div id="popupParent">
+            <div id="overlay"></div>
+            <div id="popup">
+                <div id="popupH">
+                    <div>
+                        <div class="title" id="popupTitle"> </div>
+                        <div id="popupUnderTitle"> </div>
+                    </div>
+                    <div id="popupV">
+                        <div id="popupImages">
+                            <img src="" id="bigImage">
+                            <img src="" id="smallImage1" class="smallImage">
+                            <img src="" id="smallImage2" class="smallImage">
+                            <img src="" id="smallImage3" class="smallImage">
+                            <img src="" id="smallImage4" class="smallImage">
+                            <img src="" id="smallImage5" class="smallImage">
+                        </div>
+                        <div id="popupDescription">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <script language="javascript" type="text/javascript" src="header.js" ></script>
+    <script language="javascript" type="text/javascript" src="popup.js" ></script>
+
+
+</html>
