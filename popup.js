@@ -33,7 +33,7 @@ button = document.getElementById("Fangs & Friends");
 button.addEventListener("click", function () {2
 	FillPopup("Fangs & Friends", "Unity 3D - C#", "Fangs&Friends",
 	"LevelUP 2019 <br> 1st place Overall/Gameplay - 1st place Art <br> 2nd place People's Choice <br> <br>Unity 3D asychronous puzzle coop <br>with an Ice and Fire power dichotomy <br> Project exectuted by a team of 7 students<br> (3 code - 3 art - 1 music) over 4 months <br> <br> What I implemented: <br> - Character Movement / Animation Rigging <br> - Xbox Controller Mapping <br> - Particle Effects / Water Shader <br> - Level Design <br> - Environment Hazards & Logic",
-	"<br>Check the project out on <br> <a href=\"fangsandfriends.com\"> fangsandfriends.com </a>")
+	"<br>Check the project out on <br> <a href=\"https://fangsandfriends.com\"> fangsandfriends.com </a>")
 });
 
 button = document.getElementById("DS");
